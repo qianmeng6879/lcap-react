@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+.demo-logo-vertical {
+    height: 64px;
+    width: 100%;
+    background: #ccc;
+}
+
+.header-bread {
+    /* line-height: 64px; */
+    /* margin: 0 12px; */
+}
+
+.main {
+    background: white;
+    padding: 12px 20px 10px;
+}
+
+.admin .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin .header .bread {
+    padding-left: 30px;
+}
+
+.admin .header .userinfo {
+    margin-right: 30px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ccc;
+}
+
+.login .form {
+    width: 340px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background: white;
+}
+
+.login .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login .image_code {
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+.login .login-form-forgot {
+    float: right;
+}
+
+.login .ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+.login .login-form-button {
+    width: 100%;
+}
+
+
+.app_list {
+    display: flex;
+}
+
+
+.app_item {
+    margin: 10px;
+    padding: 0;
+    width: 260px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px seagreen solid;
+    border-radius: 6px;
+}
+
+.app_item .app_logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: greenyellow;
+}
+
+.app_item .app_info {
+    font-size: 13px;
+    color: #606060;
+}
+
+.app_item .app_name {
+    margin-bottom: 10px;
+}
+
+.app_item .app_notes {
+    margin-bottom: 10px;
+}
+
+.site-header {
+    display: flex;
+    margin: 10px 0;
+}
+
+.site-header .site-search {
+    width: 280px;
+}
+
+
+.site-header .site-btn {
+    margin-right: 20px;
+}
+
+.site-footer {
+    margin-top: 20px;
+}
+
+
+
+.account_table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.account_table tr th,
+.account_table tr td {
+    vertical-align: middle;
+    border-collapse: collapse;
+    border: 1px black solid;
+    width: 20%;
+}
+
+.account_table tr th {
+    font-weight: 500;
+}
+
+
+.account_table tr input {
+    outline: none;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    width: 90px;
+}
+
+.account_table tr select {
+    font-size: 16px;
+    width: 60px;
+    height: 100%;
+    outline: none;
+    text-align: center;
+}
+
+.account_table tr .notes {
+    width: 120px;
+}
+
+.account_table tr .is_required {
+    /* height: 30px; */
+    border: 1px black solid;
+    width: 40px;
+}
